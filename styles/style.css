@@ -221,7 +221,6 @@
   margin-inline-start: 15px;
   margin-block-start: 13px;
   fill: currentColor;
-  mix-blend-mode: difference;
 }
 @media (width <= 375px) {
   .header {
