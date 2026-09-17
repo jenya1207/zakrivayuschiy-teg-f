@@ -116,6 +116,8 @@
   max-inline-size: 696px;
   inline-size: 100%;
   min-block-size: 696px;
+  display: block;
+  object-fit: cover;
 }
 .image__card {
   position: relative;
@@ -153,9 +155,9 @@
   background-color: transparent;
   border: 2px solid rgba(0, 0, 0, 1);
   padding-block: 7px;
-  padding-inline: 35px;
   transition: box-shadow 0.3s ease;
   position: relative;
+  inline-size: 118px;
 }
 .card__icon-button {
   background-color: transparent;
